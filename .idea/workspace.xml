@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="16d1b1d7-5d8e-4683-9bad-6f27fe0d7868" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/app/.gitignore" afterPath="$PROJECT_DIR$/storage/app/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/app/public/.gitignore" afterPath="$PROJECT_DIR$/storage/app/public/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/.gitignore" afterPath="$PROJECT_DIR$/storage/framework/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/.gitignore" afterPath="$PROJECT_DIR$/storage/framework/cache/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/data/.gitignore" afterPath="$PROJECT_DIR$/storage/framework/cache/data/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/sessions/.gitignore" afterPath="$PROJECT_DIR$/storage/framework/sessions/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/testing/.gitignore" afterPath="$PROJECT_DIR$/storage/framework/testing/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/views/.gitignore" afterPath="$PROJECT_DIR$/storage/framework/views/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/logs/.gitignore" afterPath="$PROJECT_DIR$/storage/logs/.gitignore" />
-    </list>
+    <list default="true" id="16d1b1d7-5d8e-4683-9bad-6f27fe0d7868" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -194,12 +184,12 @@
       <updated>1548424553814</updated>
       <workItem from="1548424556633" duration="1270000" />
       <workItem from="1548602233842" duration="217000" />
-      <workItem from="1548667270363" duration="173000" />
+      <workItem from="1548667270363" duration="772000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1660000" />
+    <option name="totallyTimeSpent" value="2259000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-2" width="1920" height="1034" extended-state="6" />
