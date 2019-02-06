@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Http\Request;
+use TCG\Voyager\Http\Controllers\VoyagerBaseController;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,13 +14,13 @@ use Illuminate\Http\Request;
 |
 */
 
-Route::prefix('v1')->group(function () {
-    Route::get('/posts', function () {
-        return response()->json([
-            'name' => 'Abigail',
-            'state' => 'CA'
-        ]);
-    });
+Route::middleware('cors')->prefix('v1')->group(function () {
+
+    Route::get('/breaking', "PostsController@breaking");
+    Route::get('/articole', "PostsController@allPosts");
+    Route::middleware('cors')->get('/articole/{slug}', "PostsController@single");
+
+    Route::get('/guides', "GuideController@index");
 });
 
 Route::middleware('auth:api')->get('/user', function (Request $request) {

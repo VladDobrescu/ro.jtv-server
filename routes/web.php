@@ -12,7 +12,7 @@
 */
 
 Route::get('/', function () {
-    return redirect('/admin');
+    return redirect('http://localhost:8081/');
 });
 
 Route::group(['prefix' => 'admin'], function () {
