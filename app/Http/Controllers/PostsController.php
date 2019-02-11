@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
+use App\User;
 
 class PostsController extends Controller
 {
@@ -22,7 +23,7 @@ class PostsController extends Controller
     Sorts by date
     */
     public function allPosts(){
-        $posts = DB::table('posts')->paginate(9);
+        $posts = DB::table('posts')->latest()->paginate(9);
 
         return response()->json($posts);
     }
@@ -32,6 +33,10 @@ class PostsController extends Controller
     */
     public function single($slug){
         $single = DB::table('posts')->where('slug', $slug)->first();
+        $author = DB::table('users')->where('id', $single->author_id)->first();
+
+        $single->{"auth_name"} = $author->name;
+        dd($single);
 
         return response()->json($single);
     }
